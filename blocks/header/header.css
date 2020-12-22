@@ -1,0 +1,7 @@
+.header {
+    margin: 0;
+    background-color: #2A2C2F;
+    position: relative;
+    display: flex;
+    max-width: 100%;
+}
