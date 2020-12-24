@@ -1,0 +1,8 @@
+.place {
+    width: 100%;
+    display: grid;
+    gap: 48px 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: fit-content(auto) 1fr;
+    margin-top: 80px;
+}
