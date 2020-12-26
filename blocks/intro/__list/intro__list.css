@@ -4,3 +4,14 @@
     height: 90px;  
     padding: 0; 
 }
+@media screen and (max-width: 1024px) {
+    .intro__list {
+        width: 720px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro__list {
+        max-width: 288px;
+        margin: 34px auto 0;
+    }
+}

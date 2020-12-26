@@ -1,8 +1,7 @@
 .place__link {
     width: 456px;
     height: 22px;
-    font-family: Inter-Regular;
-    font-style: normal;
+    font-family: Inter;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
@@ -13,8 +12,7 @@
 .place__link:hover {
     width: 456px;
     height: 22px;
-    font-family: Inter-Regular;
-    font-style: normal;
+    font-family: Inter;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
@@ -23,4 +21,23 @@
     align-self: end;
     opacity: 0.8;
     transition: 0.5s;
+}
+@media screen and (max-width: 1024px) {
+    .place__link {
+        width: 352px;
+        height: 22px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__link {
+        width: 288px;
+        height: 22px;
+        margin: 0 auto;
+    }
+    .place__link:hover {
+        width: 288px;
+        height: 22px;
+        opacity: 0.8;
+        transition: 0.5s;
+    }
 }

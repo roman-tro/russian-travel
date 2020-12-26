@@ -1,8 +1,7 @@
 .footer__link {
-    min-width: 50px;
+    max-width: 106px;
     height: 18px;
-    font-family: Inter-Regular;
-    font-style: normal;
+    font-family: Inter;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
@@ -12,17 +11,31 @@
     list-style-type: none;
 }
 .footer__link:hover {
-    min-width: 50px;
-    height: 18px;
-    font-family: Inter-Regular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 18px;
-    color: #FFFFFF;
-    margin: 0 18px 0 0;
-    text-decoration: none;
-    list-style-type: none;
     opacity: 0.8;
     transition: 0.5s;
+}
+@media screen and (max-width: 1280px) {
+    .footer__link:hover {
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .footer__link:hover {
+        opacity: 0.8;
+        transition: 0.5s;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer__link {
+        max-width: 158px;
+        height: 24px;
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 0 32px 0;
+    }
+    .footer__link:hover {
+        opacity: 0.8;
+        transition: 0.5s;
+    }
 }

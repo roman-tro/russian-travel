@@ -5,14 +5,27 @@
     font-family: Inter;
 }
 @font-face {
-    font-family: 'Inter-Regular';
+    font-family: 'Inter';
     src: url("../../fonts/Inter-Regular.woff");
+    font-weight: normal;
  }
 @font-face {
-    font-family: 'Inter-Bold';
-    src: url("../../fonts/Inter-Bold.woff");
-}/*
-@font-face {
     font-family: 'Inter';
-    src: url("../../fonts/Inter-Italic.woff");
-} */
+    src: url("../../fonts/Inter-Bold.woff");
+    font-weight: bold;
+}
+@media screen and (max-width: 1280px) {
+    .page {
+        min-width: 1024px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .page {
+        min-width: 768px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .page {
+        min-width: 320px;
+    }
+}

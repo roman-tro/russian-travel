@@ -1,7 +1,6 @@
 .cover__link {
-    font-family: Inter-Bold;
-    font-style: normal;
-    font-weight: 900;
+    font-family: Inter;
+    font-weight: bold;
     font-size: 72px;
     line-height: 76px;
     text-align: center;
@@ -13,9 +12,8 @@
     text-decoration: none;
 }
 .cover__link:hover {
-    font-family: Inter-Bold;
-    font-style: normal;
-    font-weight: 900;
+    font-family: Inter;
+    font-weight: bold;
     font-size: 72px;
     line-height: 76px;
     text-align: center;
@@ -27,4 +25,38 @@
     text-decoration: none;
     opacity: 0.8;
     transition: 0.5s;
+}
+@media screen and (max-width: 1280px) {
+    .cover__link {
+        padding-top: 195px;
+    }
+    .cover__link:hover {
+        opacity: 0.8;
+        transition: 0.5s;
+        padding-top: 195px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        padding-top: 115px;
+    }
+    .cover__link:hover {
+        opacity: 0.8;
+        transition: 0.5s;
+        padding-top: 115px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover__link {
+        font-size: 32px;
+        line-height: 35px;
+        padding-top: 33px;
+    }
+    .cover__link:hover {
+        opacity: 0.8;
+        transition: 0.5s;
+        font-size: 32px;
+        line-height: 35px;
+        padding-top: 33px;
+    }
 }
