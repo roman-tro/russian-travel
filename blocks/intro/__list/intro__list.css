@@ -1,8 +1,8 @@
 .intro__list {
     margin-top: 33px;
     width: 690px;
-    height: 90px;  
-    padding: 0; 
+    height: 90px;
+    padding: 0;
 }
 @media screen and (max-width: 1024px) {
     .intro__list {
