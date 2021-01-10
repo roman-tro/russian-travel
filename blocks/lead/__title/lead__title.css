@@ -1,7 +1,7 @@
 .lead__title {
     color: #ffffff;
     max-width: 720px;
-    max-height: 200px;
+    min-height: 200px;
     font-family: Inter-Black;
     font-weight: bold;
     font-size: 96px;
@@ -11,10 +11,10 @@
     margin: 0 auto;
     text-rendering: optimizeLegibility;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .lead__title {
         max-width: 288px;
-        max-height: 88px;
+        min-height: 88px;
         font-size: 40px;
         line-height: 44px;
     }
