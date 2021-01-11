@@ -1,6 +1,5 @@
 .place__link {
     max-width: 456px;
-    min-height: 22px;
     font-family: Inter;
     font-weight: normal;
     font-size: 18px;
@@ -16,18 +15,15 @@
 @media screen and (max-width: 1023px) {
     .place__link {
         max-width: 352px;
-        min-height: 22px;
     }
 }
 @media screen and (max-width: 767px) {
     .place__link {
         width: 288px;
-        min-height: 22px;
         margin: 0 auto;
     }
     .place__link:hover {
         width: 288px;
-        min-height: 22px;
         opacity: 0.8;
         transition: 0.5s;
     }
