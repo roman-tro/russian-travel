@@ -1,7 +1,6 @@
 .intro__title {
     max-width: 690px;
-    font-family: Inter-Black;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 54px;
     line-height: 58px;
     color: #FFFFFF;
@@ -18,6 +17,5 @@
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
-        margin: 0 auto;
     }
 }

@@ -1,6 +1,4 @@
 .place__link {
-    max-width: 456px;
-    font-family: Inter;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
@@ -12,19 +10,9 @@
     opacity: 0.8;
     transition: 0.5s;
 }
-@media screen and (max-width: 1023px) {
-    .place__link {
-        max-width: 352px;
-    }
-}
 @media screen and (max-width: 767px) {
     .place__link {
-        width: 288px;
         margin: 0 auto;
-    }
-    .place__link:hover {
         width: 288px;
-        opacity: 0.8;
-        transition: 0.5s;
     }
 }
